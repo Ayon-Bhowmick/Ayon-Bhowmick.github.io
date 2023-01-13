@@ -9,7 +9,8 @@ $textPad: 4%;
     margin-bottom: 20%;
     padding-bottom: $textPad;
     padding-top: $textPad;
-    padding-left: 20%;
+    padding-left: 1%;
+    left: 10%;
     width: 40%;
     font-size: 300%;
 }
@@ -20,6 +21,13 @@ $textPad: 4%;
     height: 100%;
     width: 20%;
     z-index: -1;
+}
+
+.line {
+    position: absolute;
+    left: 9%;
+    width: 0.5%;
+    height: 100%;
 }
 
 #orange {

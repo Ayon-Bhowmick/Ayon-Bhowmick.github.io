@@ -13,6 +13,7 @@ const Title = ({name}) => {
 
   return (
     <>
+      <div className="line" id={colorMap[name]}/>
       <div className="bar" id={colorMap[name]}/>
       <h1 className="text">{name}</h1>
     </>
