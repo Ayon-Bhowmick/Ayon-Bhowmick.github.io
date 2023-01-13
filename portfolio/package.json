@@ -2,10 +2,15 @@
   "name": "portfolio",
   "version": "1.0.0",
   "private": false,
-  "description": "A Gatsby starter with no plugins and a single welcome page.",
+  "description": "Ayon Bhowmick's portfolio website",
   "author": "Ayon Bhowmick",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "Ayon",
+    "Bhowmick",
+    "Computer Science",
+    "Data Science",
+    "Web Development"
   ],
   "scripts": {
     "develop": "gatsby develop",

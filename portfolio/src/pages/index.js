@@ -3,6 +3,8 @@ import StartPage  from "./start"
 import "../styles/global.scss"
 import Education from "./education"
 import Skills from "./skills"
+import Experience from "./experience"
+import Projects from "./projects"
 
 const IndexPage = () => {
   return (
@@ -10,6 +12,8 @@ const IndexPage = () => {
       <StartPage />
       <Education />
       <Skills />
+      <Experience />
+      <Projects />
     </>
   )
 }
