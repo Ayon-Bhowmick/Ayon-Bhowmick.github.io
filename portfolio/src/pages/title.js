@@ -4,11 +4,17 @@ import "../styles/title.scss"
 
 
 const Title = ({name}) => {
+  const colorMap = {
+    "Education": "orange",
+    "Skills": "yellow",
+    "Experience": "green",
+    "Projects": "blue"
+  }
+
   return (
     <>
-      <div />
-        <h1 className="text">{name}</h1>
-      <div />
+      <div className="bar" id={colorMap[name]}/>
+      <h1 className="text">{name}</h1>
     </>
   )
 }

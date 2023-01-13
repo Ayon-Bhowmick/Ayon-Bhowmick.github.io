@@ -1,10 +1,15 @@
-$bgColor: #191919;
+$bgColor: #121212;
+
+body {
+    background-color: $bgColor;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
 
 .body {
-    height: 70vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-family: "Roboto", sans-serif;
 }
 
 .title-container {
@@ -14,11 +19,12 @@ $bgColor: #191919;
 .info-container {
     grid-column: 2 / 3;
     padding: 10%;
+    opacity: 0.87;
     p {
         margin-top: -1em;
     }
 }
 
 .sub {
-    color:darkgrey;
+    opacity: 0.6;
 }
