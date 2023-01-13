@@ -1,0 +1,13 @@
+.body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title-container {
+    grid-column: 1 / 2;
+}
+
+.info-container {
+    grid-column: 2 / 3;
+}
