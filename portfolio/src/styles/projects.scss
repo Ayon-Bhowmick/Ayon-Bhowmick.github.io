@@ -1,16 +1,15 @@
-$space: 20%;
+$space: 10%;
 
 #projectInfo {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: $space;
 
     #left {
         grid-column: 1 / 2;
-        padding-right: $space;
     }
 
     #right {
         grid-column: 2 / 3;
-        padding-left: $space;
     }
 }

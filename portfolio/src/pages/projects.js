@@ -1,13 +1,14 @@
 import * as React from "react"
 import "../styles/projects.scss"
 import "../styles/global.scss"
+import Title from "./title"
 
 
 const Projects = () => {
   return (
     <div className="body">
       <div className="title-container">
-        <h1>Projects</h1>
+        <Title name={"Projects"} />
       </div>
       <div className="info-container" id="projectInfo">
         <div className="left">

@@ -1,7 +1,10 @@
+$bgColor: #191919;
+
 .body {
     height: 70vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-family: "Roboto", sans-serif;
 }
 
 .title-container {
@@ -11,8 +14,11 @@
 .info-container {
     grid-column: 2 / 3;
     padding: 10%;
+    p {
+        margin-top: -1em;
+    }
 }
 
 .sub {
-
+    color:darkgrey;
 }

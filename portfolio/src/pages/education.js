@@ -1,13 +1,14 @@
 import * as React from "react"
 import "../styles/education.scss"
 import "../styles/global.scss"
+import Title from "./title"
 
 
 const Education = () => {
   return (
     <div className="body">
       <div className="title-container">
-        <h1>Education</h1>
+        <Title name={"Education"} />
       </div>
       <div className="info-container">
         <h3>Lehigh University</h3>

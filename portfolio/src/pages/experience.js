@@ -1,13 +1,14 @@
 import * as React from "react"
 import "../styles/experience.scss"
 import "../styles/global.scss"
+import Title from "./title"
 
 
 const Experience = () => {
   return (
     <div className="body">
       <div className="title-container">
-        <h1>Experience and Awards</h1>
+        <Title name={"Experience"} />
       </div>
       <div className="info-container">
         <h3>Computer Science Department Grader</h3>

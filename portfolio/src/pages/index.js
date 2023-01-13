@@ -1,6 +1,6 @@
 import * as React from "react"
-import StartPage  from "./start"
 import "../styles/global.scss"
+import StartPage  from "./start"
 import Education from "./education"
 import Skills from "./skills"
 import Experience from "./experience"
