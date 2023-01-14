@@ -1,4 +1,4 @@
-$bgColor: #121212;
+@import "vars.scss";
 
 body {
     background-color: $bgColor;
@@ -18,8 +18,21 @@ body {
 
 .info-container {
     grid-column: 2 / 3;
-    padding: 10%;
+    padding-right: 20%;
+    // right: 20%;
     opacity: 0.87;
+    #education {
+        color: $second;
+    }
+    #skills {
+        color: $third;
+    }
+    #experience {
+        color: $fourth;
+    }
+    #projects {
+        color: $fifth;
+    }
     p {
         margin-top: -1em;
     }
@@ -28,3 +41,34 @@ body {
 .sub {
     opacity: 0.6;
 }
+
+.box {
+    // margin-top: 15%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    background-color: rgb(31, 31, 31);
+}
+
+// .box:hover {
+//     animation-name: boxHover;
+//     animation-duration: 0.2s;
+//     animation-fill-mode: forwards;
+// }
+
+// @keyframes boxHover {
+//     0% {
+//         background-color: rgb(31, 31, 31);
+//         width: 90%;
+//     }
+//     100% {
+//         background-color: rgb(41, 41, 41);
+//         padding-left: 3.5%;
+//         padding-right: 3.5%;
+//         padding-top: 1.5%;
+//         padding-bottom: 1.5%;
+//         width: 95%;
+//     }
+// }
