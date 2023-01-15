@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://ayon-bhowmick.github.io/`,
   },
 plugins: [`gatsby-plugin-sass`,
   {

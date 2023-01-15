@@ -1,6 +1,31 @@
+@import "title.scss";
+
+$boxHeight: 20%;
+
+.startBar {
+    @extend .bar;
+    top: 100% - $boxHeight + 1%;
+    height: $boxHeight;
+}
+
+.startLine {
+    @extend .line;
+    top: 100% - $boxHeight + 1%;
+    height: $boxHeight;
+}
+
+.startTitle {
+    text-align: left;
+    margin-left: $offset + 13%;
+    margin-top: $boxHeight + 13%;
+    font-size: 1000%;
+}
+
 #startInfo {
-    display: flex;
-    align-items: center;
+    margin-top: 20%;
+    width: 80%;
+    font-size: 150%;
+
 }
 
 #startBody{

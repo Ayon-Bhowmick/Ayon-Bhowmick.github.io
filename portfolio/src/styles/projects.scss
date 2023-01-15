@@ -1,17 +1,2 @@
 $space: 5%;
 
-#projectInfo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: $space;
-
-    #left {
-        grid-column: 1 / 2;
-        padding: auto;
-        height: min-height;
-    }
-
-    #right {
-        grid-column: 2 / 3;
-    }
-}

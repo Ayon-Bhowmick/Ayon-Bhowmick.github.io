@@ -5,7 +5,6 @@
   "description": "Ayon Bhowmick's portfolio website",
   "author": "Ayon Bhowmick",
   "keywords": [
-    "gatsby",
     "Ayon",
     "Bhowmick",
     "Computer Science",
@@ -17,7 +16,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "license": "0BSD",
   "dependencies": {
@@ -28,5 +28,8 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

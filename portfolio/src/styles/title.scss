@@ -29,6 +29,11 @@ $offset: 15%;
     left: $offset - 1%;
     width: 0.5%;
     height: 80vh;
+    z-index: -1;
+}
+
+#red {
+    background: linear-gradient(180deg, $first, $second);
 }
 
 #orange {

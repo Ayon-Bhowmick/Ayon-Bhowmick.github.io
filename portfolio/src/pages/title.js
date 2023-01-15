@@ -1,6 +1,5 @@
 import * as React from "react"
 import "../styles/title.scss"
-// import "../styles/global.scss"
 
 
 const Title = ({name}) => {

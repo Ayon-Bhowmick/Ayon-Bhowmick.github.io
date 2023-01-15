@@ -13,7 +13,7 @@ const Education = () => {
         <div className="box">
           <h3 id="education">Lehigh University</h3>
           <p className="sub">August 2020 - Expected Graduation: May 2024</p>
-          <p>Computer Science B.S. Data Science minor</p>
+          <p>Computer Science B.S., Data Science minor</p>
           <p>Relevant Coursework: Introduction to Programming, Programming and Data Structures, System Software, Software Engineering, Programming Languages, Computer Organization and Architecture, Linear Methods, Foundations of Discrete Structures and Algorithms, Introduction to Data Science, Machine Learning</p>
         </div>
       </div>
