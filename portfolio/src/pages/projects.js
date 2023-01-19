@@ -6,7 +6,7 @@ import Title from "./title"
 
 const Projects = () => {
   return (
-    <div className="body">
+    <div className="projBody">
       <div className="title-container">
         <Title name={"Projects"} />
       </div>

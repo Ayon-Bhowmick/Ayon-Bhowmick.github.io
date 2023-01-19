@@ -1,2 +1,7 @@
-$space: 5%;
+@import "global.scss";
+@import "vars.scss";
 
+.projBody {
+    @extend .body;
+    height: $projHeight;
+}

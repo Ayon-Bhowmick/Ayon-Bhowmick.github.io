@@ -4,14 +4,16 @@ $boxHeight: 20%;
 
 .startBar {
     @extend .bar;
-    top: 100% - $boxHeight + 1%;
+    top: 101% - $boxHeight;
     height: $boxHeight;
+    animation: moveUp 1s ease;
 }
 
 .startLine {
     @extend .line;
-    top: 100% - $boxHeight + 1%;
+    top: 101% - $boxHeight;
     height: $boxHeight;
+    animation: moveUp 1.5s ease;
 }
 
 .startTitle {
@@ -25,9 +27,28 @@ $boxHeight: 20%;
     margin-top: 20%;
     width: 80%;
     font-size: 150%;
+    animation: fadeIn 1.5s ease;
 
 }
 
 #startBody{
     height: 100vh;
+}
+
+@keyframes moveUp {
+    0% {
+        top: 100%
+    }
+    100% {
+        top: 101% - $boxHeight;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }

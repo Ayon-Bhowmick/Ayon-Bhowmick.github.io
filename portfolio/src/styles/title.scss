@@ -24,12 +24,32 @@ $offset: 15%;
     z-index: -1;
 }
 
+.projBar {
+    @extend .bar;
+    height: $projHeight;
+}
+
+.conBar {
+    @extend .bar;
+    height: $conHeight;
+}
+
 .line {
     position: absolute;
     left: $offset - 1%;
     width: 0.5%;
     height: 80vh;
     z-index: -1;
+}
+
+.projLine {
+    @extend .line;
+    height: $projHeight;
+}
+
+.conLine {
+    @extend .line;
+    height: $conHeight;
 }
 
 #red {
@@ -50,4 +70,8 @@ $offset: 15%;
 
 #blue {
     background: linear-gradient(180deg, $fifth, $sixth);
+}
+
+#purple {
+    background: linear-gradient(180deg, $sixth, $first);
 }

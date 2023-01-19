@@ -5,6 +5,7 @@ import Education from "./education"
 import Skills from "./skills"
 import Experience from "./experience"
 import Projects from "./projects"
+import Connect from "./connect"
 
 const IndexPage = () => {
   return (
@@ -14,6 +15,7 @@ const IndexPage = () => {
       <Skills />
       <Experience />
       <Projects />
+      <Connect />
     </>
   )
 }
