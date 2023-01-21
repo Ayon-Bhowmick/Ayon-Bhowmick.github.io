@@ -21,3 +21,5 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+export const Head = () => <title>Ayon Bhowmick</title>
