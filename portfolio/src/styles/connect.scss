@@ -4,23 +4,19 @@
 
 .conBox {
     @extend .box;
-    // display: flex;
     padding: 5%;
 }
 
 .conElement {
-    $hoverHight: -7%;
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-top: 1.5%;
-
 
     p {
         margin-top: 1em;
         padding-left: 1em;
         grid-column: 2 / 3;
     }
-
 
     .btn {
         position: relative;
@@ -30,6 +26,7 @@
         border: none;
         padding: 0.5em 1em;
         transition: all 0.2s ease-in-out;
+        font-size: medium;
         align-items: center;
         justify-content: center;
         border-radius: 0.5em;
@@ -40,8 +37,7 @@
     .btn:hover {
         background-color: $bgColor;
         color: $sixth;
-        font-size: large;
+        font-size: larger;
         cursor: pointer;
-        // transform: translate(0, $hoverHight);
     }
 }
