@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[883],{429:function(e,t,n){n.r(t);var o=n(7294);t.default=()=>o.createElement(o.Fragment,null,"404 page not found")}}]);
+//# sourceMappingURL=component---src-pages-404-js-e05981b82be275c9ee64.js.map
