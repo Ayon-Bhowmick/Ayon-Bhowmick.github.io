@@ -3,6 +3,8 @@ import "../styles/title.scss"
 
 
 const Title = ({name}) => {
+  if (typeof name !== "string") return null;
+
   const map = {
     "Education": {
       "color": "orange",
@@ -29,8 +31,8 @@ const Title = ({name}) => {
       "bar": "conBar",
       "line": "conLine"
     }
-  }
-  const {color, bar, line} = map[name]
+  };
+  const {color, bar, line} = map[name];
 
   return (
     <>

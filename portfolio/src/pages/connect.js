@@ -3,20 +3,12 @@ import "../styles/global.scss"
 import Title from "./title"
 import "../styles/connect.scss"
 
-const Button = ({ text, link }) => {
-  return (
-    <a className="btn" href={link} target="_blank" rel="noopener noreferrer">
-      <p>{text}</p>
-    </a>
-  )
-}
 
 const openLink = (link) => {
   return async () => {
     await window.open(link, "_blank")
   }
 }
-
 
 const Connect = () => {
   const downloadResume = () => {
