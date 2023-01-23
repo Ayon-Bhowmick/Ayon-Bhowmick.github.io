@@ -48,8 +48,8 @@ const Connect = () => {
               <p>github.com/Ayon-Bhowmick</p>
             </div>
             <div className="conElement">
-              <button className="btn" onClick={openLink("https://devpost.com/ayonbolt")}>DevPost</button>
-              <p>devpost.com/ayonbolt</p>
+              <button className="btn" onClick={openLink("https://devpost.com/ayon-bhowmick")}>DevPost</button>
+              <p>devpost.com/ayon-bhowmick</p>
             </div>
           </div>
         </div>
