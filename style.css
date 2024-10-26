@@ -111,22 +111,22 @@ p {
     color: var(--text-color);
 }
 
-/* Projects */
-.project-list {
+/* boxes */
+.box-list {
     display: flex;
     justify-content: flex-start;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.project {
+.box {
     position: relative;
     padding: 20px;
     background-color: var(--bg-color);
     color: var(--text-color);
 }
 
-.project::before {
+.box::before {
     content: "";
     position: absolute;
     top: 0;
@@ -140,7 +140,7 @@ p {
     /* Remove rounding */
 }
 
-.project::after {
+.box::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -152,13 +152,13 @@ p {
     border-right: 2px solid var(--accent-color);
 }
 
-.project h3 {
+.box h3 {
     font-size: 1.2em;
     font-weight: 500;
     color: var(--text-color);
 }
 
-.project p {
+.box p {
     font-size: 0.9em;
     color: var(--text-color);
 }
