@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     padding: 0.8vw;
+    padding-bottom: 40px;
 }
 
 /* Dark mode button */
