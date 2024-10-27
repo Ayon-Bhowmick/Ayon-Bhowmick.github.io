@@ -170,7 +170,7 @@ p {
     color: var(--text-color);
 }
 
-/* Skills Section */
+/* Skills */
 #skills {
     grid-column: 2 / 12;
     padding-top: 40px;
@@ -184,22 +184,19 @@ p {
 
 .skills-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
 }
 
 .skill {
-    padding: 10px 15px;
+    padding: 5px 8px;
     border: 2px solid var(--text-color);
-    border-radius: 4px;
+    font-size: 0.9em;
     text-align: center;
-    font-size: 1em;
     color: var(--text-color);
     background-color: var(--box-color);
-    transition: background-color 0.3s, color 0.3s;
 }
 
-/* Optional: Change color on hover */
 .skill:hover {
     background-color: var(--text-color);
     color: var(--bg-color);
